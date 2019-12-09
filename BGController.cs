@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BGController : MonoBehaviour
 {
-    private float scrollSpeed;
+    public float scrollSpeed;
     public float tileSizeZ;
     private Vector3 startPosition;
 
@@ -20,7 +20,6 @@ public class BGController : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
-        scrollSpeed = -.45f;
 
 //      ps = GetComponent<ParticleSystem>();  (Error Code)
 
