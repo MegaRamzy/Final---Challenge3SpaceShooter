@@ -96,7 +96,7 @@ public class GameController : MonoBehaviour
                 timerText.text = "0.00";
                 if ((scores == true) && (gameOver == false) && (repeat == 0))
                 {
-                    endScoreText.text = "Level Completed \nYou Scored : " + score;
+                    endScoreText.text = "Level Completed \nGame Created By David Kingsley! \nYou Scored : " + score;
                     restart = true;
                     musicSource1.Stop();
                     musicSource2.clip = musicClipTwo;
